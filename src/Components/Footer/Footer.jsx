@@ -29,19 +29,22 @@ const Footer = () => {
       <div className={styles.conteiner1}>
         <div className={styles.column1}>
           <Link href='/'>
-            <Image src='/Logo.svg' alt='dsf bank' width={50} height={30} />
+          <Image src="/favicon.ico" alt="Foccus" width={50} height={50} />
           </Link>
           <p className='light'>{description}</p>
         </div>
+
         <div className={styles.column2}>
           <h2 className='p'>Links úteis</h2>
           <ul>{renderLinks}</ul>
         </div>
+
         <div className={styles.column3}>
           <h2 className='p'>Contato</h2>
           <ul>{renderContacts}</ul>
         </div>
       </div>
+
       <div className={styles.conteiner2}>
         <span className='p light'>{copy}</span>
         <ul>{renderSocial}</ul>

@@ -122,21 +122,18 @@ export const testimonials = {
 export const footer = {
   description: 'Transformando vidas com tecnologia e inovação.',
   links: [
-    { name: 'Perguntas frequentes', url: '#' },
-    { name: 'Política de Privacidade', url: '#' },
-    { name: 'Termos de Uso', url: '#' },
-    { name: 'Trabalhe Conosco', url: '#' },
-    { name: 'Fale Conosco', url: '#' },
+    { name: 'Perguntas frequentes', url: 'https://wa.me/5562996691908' },
+    { name: 'Fale Conosco', url: 'https://wa.me/5562996691908' },
   ],
   contact: [
     'gabrimarquesniq@gmail.com',
     '(62)9 9669-1908',
     'Anápolis - Goiás',
   ],
-  copy: 'Copyright © 2021 Foccus. Todos os direitos reservados.',
+  copy: 'Copyright © 2024 Foccus. Todos os direitos reservados.',
   social: [
     { component: instagram, url: 'https://www.instagram.com/foccusgo/' }, // Link do Instagram
     { component: whatsapp, url: 'https://wa.me/5562996691908' }, // Link para WhatsApp
-    { component: linkedin, url: '#' },
+    
   ],
 };
